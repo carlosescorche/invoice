@@ -1,0 +1,38 @@
+{
+    "nro":"0101010101",
+    "date" : "March 10 , 2019",
+    "company" : {
+        "name" : "You Company",
+        "address_1" : "Address Lorem ipsum",
+        "address_2": "Lorem Ipsum, CHILE",
+        "nro": "0101010101",
+        "email" : "you.email@gmail.com",
+        "phone" : "+ 56 901 010101"
+    },
+    "recipient" : {
+        "name" : "Carlos Escorche",
+        "address" : "8922 address lorem ipsum",
+        "address_2": "01 Santiago, Chile",
+        "rut":"123456",
+        "email": "carlosescorchep@gmail.com",
+        "phone" : "+ 56 912 345678"
+    },
+    "products" :[
+        {
+            "description" : "Website Redesign",
+            "hours" : 30,
+            "rate" : 20 
+        },
+        {
+            "description": "Frontend development mobile app",
+            "hours": 25,
+            "rate": 25
+        },
+        {
+            "description": "Backend development nodejs services",
+            "hours": 25,
+            "rate": 30
+        }
+    ]
+
+}

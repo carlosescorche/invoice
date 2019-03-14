@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+html{
+    font-size: 14px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color:#475261;
+    font-size: 1rem;
+    margin: 0;
+}
+
+a{
+    cursor: pointer;
+}
+
+input{
+    width: 100%;
+    height: 1.5rem;
+    padding: .5rem;
+    border: 1px solid rgba(197,203,209,.5);
+    color: #475261;
+    font-size: .9rem;   
+}
+
+input:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+h1{
+    color: #FF283F;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+h2{
+    font-size: 2.2rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+p{
+    line-height: 2rem;
+}
+
+svg{
+    stroke:  #FF283F;
+   
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+}
+
+table th{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+table td,table th{
+    padding: 1rem;
+    border-bottom: 1px solid rgba(197,203,209,.5);
+}
+
+table tr td:first-child,table tr th:first-child{
+    border-bottom-width: 0;
+}
+
+table tr td:nth-child(2),table tr th:nth-child(2){
+    text-align: left;
+}
+
+table tr:last-child td{
+    border-bottom-width: 0;
+}
+
+table tr td:last-child,table tr th:last-child{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: #475261;
+}
+
+a,b{
+    transition: all .3s;
+}
+
+.not-border{
+    border-width: 0px !important;
+}
+
+.txt-primary{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FF283F;
+}
+
+.txt-light{
+    color: #99A1AA;
+}
+
+.options:hover svg{
+    stroke: #475261;
+}
+
+.invoice-logo svg{
+    fill: #FF283F;
+}
+
+.invoice-header{
+    position: relative;
+    width: 100%;
+    background: #F4F7FA;
+    padding: 2rem 0 4rem;
+    min-height: 300px;
+    font-size: 15px;
+}
+
+.invoice-header p{
+    margin:.3rem 0;
+}
+
+.invoice-body{
+    padding:5rem 0 1rem;
+}
+
+.invoice-container{
+    position: relative;
+    max-width: 850px;
+    padding-left:15px;
+    padding-right:15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.invoice-recipient{
+    margin-top: -7.2rem;
+}
+
+.footer{
+    width: 100%;
+    margin-top: 4rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(197,203,209,.5);
+}
+
+.footer p{
+    margin: .3rem 0;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.txt-right{
+    text-align: right !important;
+}
+
+.txt-left{
+    text-align: left !important;
+}
+
+.note-1{
+    margin-top: 4rem;
+    width: 100%;
+    text-align: right;
+}
+
+@media(max-width:600px){
+    .col-50{
+        width: 100%;
+    }
+
+    .invoice-recipient{
+        margin-top: 0;
+    }
+
+    .invoice-header .txt-right{
+        text-align: left;
+    }
+
+    .invoice-header .col-50{
+        margin-bottom: 1.5rem;
+    }
+}
+
